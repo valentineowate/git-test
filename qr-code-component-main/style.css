@@ -1,0 +1,44 @@
+body {
+  font-family: [Outfit](https://fonts.google.com/specimen/Outfit);
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container to center the card */
+.container {
+  background-color: hsl(212, 45%, 89%);
+  padding: 0px;
+}
+
+/* Card styles */
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  max-width: 300px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* QR Code image */
+.qr-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Heading */
+.card h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 20px 0 10px;
+  color: hsl(218, 44%, 22%);
+}
+
+/* Paragraph */
+.card p {
+  font-size: 15px;
+  color: hsl(216, 15%, 48%);
+}
